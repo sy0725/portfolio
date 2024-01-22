@@ -6,7 +6,7 @@ import React from 'react'
 function loading() {
   return (
     <div>
-      <p>loading</p>
+      <p>Loading</p>
     </div>
   )
 }
