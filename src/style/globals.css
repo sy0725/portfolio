@@ -36,13 +36,11 @@
     font-size: 2rem;
     letter-spacing: 0.0406rem;
     @screen tablet {
-      font-size: 1.5rem;
     }
 
     @apply bg-white;
 
     @screen mobile {
-      font-size: 0.8rem;
     }
   }
 }
