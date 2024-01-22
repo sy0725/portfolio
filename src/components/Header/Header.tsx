@@ -15,13 +15,13 @@ function Header() {
   return (
     <div>
       <div className='flex justify-between px-[60px] pt-5'>
-      <p className='text-[32px]'>JSY Portfolio</p>
+      <p className='mobile:text-[24px] tablet:text-[28px] desktop:text-[32px]'>JSY Portfolio</p>
       <button type='button' onClick={toggleButtonImage}>
       <Image
       src={isButtonClicked ? Light : Dark}
       width={30}
       height={30}
-      alt='맞을겨 ?'
+      alt='모드 변경 버튼'
       />
       </button>
       </div>
