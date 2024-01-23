@@ -1,12 +1,10 @@
 interface Props {
   children: React.ReactNode;
-  justify?: string;
   className?: string;
 }
 
 function CardBox({
   children,
-  justify = `justify-center`,
   className = "",
   ...props
 }: Props) {
@@ -14,7 +12,7 @@ function CardBox({
     <>
       <div
         className={`
-      border relative rounded-[20px] min-w-[1000px] max-w-[1510px] h-auto max-h-full flex items-center shadow-md ${justify} ${className} `}
+      border-[3px] rounded-[20px] min-w-[1510px] max-w-[1510px] mobile:min-w-[600px] mobile:max-w-[600px] tablet:min-w-[1100px] tablet:max-w-[1100px] h-auto flex shadow-md justify-around py-[100px] ${className}`}
         {...props}>
         {children}
       </div>
