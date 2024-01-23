@@ -17,7 +17,7 @@ function Header() {
 
   return (
     <>
-      <div className='fixed w-full'>
+      <div className='fixed w-full bg-white'>
         <div className='flex justify-between px-[60px] pt-5'>
           <p className='mobile:text-[24px] tablet:text-[28px] desktop:text-[32px]'>JSY Portfolio</p>
           <div className='flex gap-[60px] mobile:text-[24px] tablet:text-[28px] desktop:text-[32px]'>
