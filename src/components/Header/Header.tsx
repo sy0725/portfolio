@@ -1,8 +1,8 @@
 'use client'
 import React, { useState } from 'react';
 import Image from 'next/image';
-import Light from '@images/lightTheme.svg';
-import Dark from '@images/darkTheme.svg';
+import Light from '@images/theme/lightTheme.svg';
+import Dark from '@images/theme/darkTheme.svg';
 
 // 헤더 부분 앞으로 추가할 부분
 // 다크모드 , 라이트모드
