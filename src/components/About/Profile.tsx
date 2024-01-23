@@ -1,19 +1,13 @@
 import React from 'react'
 import CardBox from '../Common/CardBox'
-import Image from 'next/image'
 import Information from './Information'
+import Sunyong from './Sunyong'
 function Profile() {
   return (
-    <div>
+    <div className='flex flex-col items-center'>
+      <span className='font-bold text-[32px] pb-[40px] mobile:text-[24px] tablet:text-[28px]'>About Me</span>
       <CardBox>
-        <span className='font-bold text-[36px] pt-[45px]'>About</span>
-      <Image
-      src={'/images/About/sunyong.png'}
-      width={340}
-      height={430}
-      alt='증명사진'
-      />
-
+      <Sunyong/>
       <Information/>
       </CardBox>
     </div>
