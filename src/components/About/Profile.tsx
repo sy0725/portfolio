@@ -1,9 +1,13 @@
+import INFORMATION from '@/constants/INFORMATION'
 import React from 'react'
+import CardBox from '../Common/CardBox'
 
 function Profile() {
   return (
     <div>
-      프로필이 들어갈 공간
+      <CardBox>
+      {INFORMATION.name}
+      </CardBox>
     </div>
   )
 }
