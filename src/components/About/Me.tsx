@@ -1,6 +1,5 @@
 import React from 'react'
 import CardBox from '../Common/CardBox'
-import DownBottom from "@/components/Common/DownBottom";
 
 function Me() {
   return (
@@ -20,7 +19,6 @@ function Me() {
         <p className='text-[2.188rem] mobile:text-[1.125rem] tablet:text-[1.75rem]'><span className='font-bold text-[2.5rem] mobile:text-[1.563rem] tablet:text-[2.188rem]'>🚨 문제상황</span> : 프로젝트는 4명이서 하는 분량인데 , 연락두절로 인한 인원이 3명으로 바뀌어 혼란스러운 상황 속에서 커뮤니케이션을 통해 분위기를 진정시키고, 힘들어 하는 팀원들을 대화를 통해 긍정적인 마인드로 바꾸고 결과적으로 프로젝트를 성공적으로 마무리했어요.</p>
       </ul>
     </CardBox>
-    <DownBottom/>
 
     </section>
   )
