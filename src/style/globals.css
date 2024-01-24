@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: "suit";
-  src: url("/assets/fonts/SUITE-Regular.woff2") format("woff2");
+  src: url("/assets/font/SUIT-Regular.woff2") format("woff2");
   font-style: normal;
   font-weight: normal;
   font-display: swap;
@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: "suitBold";
-  src: url("/assets/fonts/SUITE-Bold.woff2") format("woff2");
+  src: url("/assets/font/SUIT-Bold.woff2") format("woff2");
   font-style: normal;
   font-weight: bold;
   font-display: swap;
@@ -26,7 +26,7 @@
 
 @font-face {
   font-family: "suitSemiBold";
-  src: url("/assets/fonts/SUITE-SemiBold.woff2") format("woff2");
+  src: url("/assets/font/SUIT-SemiBold.woff2") format("woff2");
   font-style: normal;
   font-display: swap;
 }

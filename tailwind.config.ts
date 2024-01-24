@@ -8,11 +8,6 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
       screens: {
         mobile: { max: "727px" },
         tablet: { min: "728px", max: "1280px" },
@@ -22,8 +17,7 @@ const config: Config = {
         suit: ["suit"],
         suitBold: ["suitBold"],
         suitSemiBold: ["suitSemiBold"],
-        intel: ["intel"],
-        jalnan: ["Jalnan"],
+        suitRegular: ["suitRegular"],
       },
     },
   },
