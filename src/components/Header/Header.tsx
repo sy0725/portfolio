@@ -22,9 +22,9 @@ function Header() {
           </ScrollLink>
           <div className='flex gap-[60px] mobile:text-[24px] tablet:text-[28px] desktop:text-[32px]'>
           <ScrollLink to='about' smooth={true} duration={1000}>
-              <button type='button'>About</button>
+              <button type='button' className='cursor-pointer'>About</button>
             </ScrollLink>
-            <button type='button'>Project</button>
+            <button type='button' className='cursor-pointer'>Project</button>
             <button className='pb-[5px]' type='button' onClick={toggleButtonImage}>
               <Image
                 src={isButtonClicked ? Light : Dark}

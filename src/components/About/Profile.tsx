@@ -2,6 +2,7 @@ import React from 'react';
 import CardBox from '../Common/CardBox';
 import Information from './Information';
 import Sunyong from './Sunyong';
+import DownBottom from "@/components/Common/DownBottom";
 
 function Profile() {
   return (
@@ -11,6 +12,8 @@ function Profile() {
         <Sunyong />
         <Information />
       </CardBox>
+      <DownBottom/>
+
     </section>
   );
 }

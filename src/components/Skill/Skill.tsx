@@ -1,6 +1,7 @@
 import React from 'react'
 import CardBox from '../Common/CardBox'
 import Tech from './Tech'
+import DownBottom from "@/components/Common/DownBottom";
 
 function Skill() {
   return (
@@ -9,6 +10,8 @@ function Skill() {
       <CardBox flex='flex-col'>
       <Tech/>
       </CardBox>
+    <DownBottom/>
+      
       </section>
   )
 }
