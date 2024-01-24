@@ -29,6 +29,10 @@ function Header() {
           <ScrollLink to='about' smooth={true} duration={1000}>
               <button type='button' className='cursor-pointer'>About</button>
             </ScrollLink>
+
+            <ScrollLink to='skill' smooth={true} duration={1000}>
+              <button type='button' className='cursor-pointer'>Skill</button>
+            </ScrollLink>
             <button type='button' className='cursor-pointer'>Project</button>
             <button className='pb-[0.313rem] ' type='button' onClick={toggleButtonImage}>
               <Image

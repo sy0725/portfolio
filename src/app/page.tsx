@@ -19,9 +19,11 @@ function page() {
       </section>
       <section id='about'>
       <Profile />
-      </section>
       <Me />
+      </section>
+      <section id='skill'>
       <Skill/>
+      </section>
       </ThemeProvider>
     </>
   );
