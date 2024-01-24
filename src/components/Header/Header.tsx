@@ -4,18 +4,23 @@ import Image from 'next/image';
 import Light from '@images/theme/lightTheme.svg';
 import Dark from '@images/theme/darkTheme.svg';
 import { Link as ScrollLink } from 'react-scroll';
+import useThemeStore from '@/store/useThemeStore';
 
 
 function Header() {
   const [isButtonClicked, setIsButtonClicked] = useState(false);
+  const { themeDarkMode } = useThemeStore()
 
+
+  
   const toggleButtonImage = () => {
+    themeDarkMode();
     setIsButtonClicked(!isButtonClicked);
   };
 
   return (
     <>
-      <div className='fixed w-full bg-white z-10'>
+      <div className='fixed w-full z-10'>
         <div className='flex justify-between px-[3.75rem] pt-5'>
         <ScrollLink to='/' smooth={true} duration={1000}>
           <button className='mobile:text-[1.5rem] tablet:text-[1.75rem] desktop:text-[2rem]'>JSY Portfolio</button>

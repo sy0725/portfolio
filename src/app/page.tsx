@@ -7,9 +7,12 @@ import Hello from "@/components/Hello/Hello";
 import Profile from "@/components/About/Profile";
 import Me from "@/components/About/Me";
 import Skill from "@/components/Skill/Skill";
+import ThemeProvider from "@/components/Common/ThemeProvider";
+
 function page() {
   return (
     <>
+    <ThemeProvider>
       <Header/>
       <section id='/'>
       <Hello/>
@@ -19,6 +22,7 @@ function page() {
       </section>
       <Me />
       <Skill/>
+      </ThemeProvider>
     </>
   );
 }
