@@ -3,7 +3,7 @@ import CardBox from '../Common/CardBox'
 
 function Me() {
   return (
-    <div className='flex flex-col items-center pt-[50px]'>
+    <section className='flex flex-col items-center' style={{ height: '100vh' }}>
     <span className='font-bold text-[32px] pb-[40px] mobile:text-[24px] tablet:text-[28px]'>저는 이런 사람 이에요!</span>
     <CardBox flex='flex-col'>
       
@@ -21,7 +21,7 @@ function Me() {
         <p className='text-[35px] mobile:text-[18px] tablet:text-[28px]'><span className='font-bold text-[40px] mobile:text-[25px] tablet:text-[35px]'>🚨 문제상황</span> : 프로젝트는 4명이서 하는 분량인데 , 연락두절로 인한 인원이 3명으로 바뀌어 혼란스러운 상황 속에서 커뮤니케이션을 통해 분위기를 진정시키고, 힘들어 하는 팀원들을 대화를 통해 긍정적인 마인드로 바꾸고 결과적으로 프로젝트를 성공적으로 마무리했어요.</p>
       </ul>
     </CardBox>
-    </div>
+    </section>
   )
 }
 

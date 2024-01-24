@@ -7,13 +7,13 @@ import Me from "@/components/About/Me";
 import Skill from "@/components/Skill/Skill";
 function page() {
   return (
-    <div>
+    <>
       <Header/>
       <Hello/>
       <Profile/>
       <Me/>
       <Skill/>
-    </div>
+    </>
   );
 }
 
