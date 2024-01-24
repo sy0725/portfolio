@@ -16,7 +16,7 @@ const ThemeProvider : FC<ThemeProviderProps> = ({ children }) => {
   }, [darkMode]);
 
   return (
-<div className={theme === 'dark' ? styles['dark-mode'] : styles['light-mode']}>
+<div className={theme === 'light' ? styles['dark-mode'] : styles['light-mode']}>
       {children}
     </div>
   );
