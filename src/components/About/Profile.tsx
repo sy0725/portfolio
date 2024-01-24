@@ -7,7 +7,7 @@ import DownBottom from "@/components/Common/DownBottom";
 function Profile() {
   return (
     <section className='flex flex-col items-center justify-center' style={{ height: '100vh' }}>
-      <span className='font-bold text-[32px] pb-[40px] mobile:text-[24px] tablet:text-[28px]'>About Me</span>
+      <span className='font-bold text-[2rem] pb-[2.5rem] mobile:text-[1.5rem] tablet:text-[1.75rem]'>About Me</span>
       <CardBox>
         <Sunyong />
         <Information />

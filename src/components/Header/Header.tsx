@@ -16,11 +16,11 @@ function Header() {
   return (
     <>
       <div className='fixed w-full bg-white'>
-        <div className='flex justify-between px-[60px] pt-5'>
+        <div className='flex justify-between px-[3.75rem] pt-5'>
         <ScrollLink to='/' smooth={true} duration={1000}>
-          <button className='mobile:text-[24px] tablet:text-[28px] desktop:text-[32px]'>JSY Portfolio</button>
+          <button className='mobile:text-[1.5rem] tablet:text-[1.75rem] desktop:text-[2rem]'>JSY Portfolio</button>
           </ScrollLink>
-          <div className='flex gap-[60px] mobile:text-[24px] tablet:text-[28px] desktop:text-[32px]'>
+          <div className='flex gap-[3.75rem] mobile:text-[1.5rem] tablet:text-[1.75rem] desktop:text-[2rem]'>
           <ScrollLink to='about' smooth={true} duration={1000}>
               <button type='button' className='cursor-pointer'>About</button>
             </ScrollLink>

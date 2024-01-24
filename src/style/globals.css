@@ -34,7 +34,6 @@
 @layer base {
   html {
     font-family: "suit";
-    font-size: 2rem;
     letter-spacing: 0.0406rem;
 
     @screen tablet {
