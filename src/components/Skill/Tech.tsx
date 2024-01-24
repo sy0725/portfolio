@@ -35,7 +35,7 @@ function renderSkillList(list: SkillProps[]) {
 
 function Tech() {
   return (
-    <div className='flex flex-col gap-10 pl-[3.75rem]'>
+    <div className='flex flex-col gap-10 px-[3.75rem]'>
       <span className='font-bold text-[2rem] mobile:text-[1.5rem] tablet:text-[1.75rem]'>활용 할 수 있어요!</span>
       {renderSkillList(SKILL_LIST)}
 
