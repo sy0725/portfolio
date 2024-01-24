@@ -10,6 +10,7 @@ function error() {
       loop
       animationData={lottieError}
       play
+      style={{ width: '31.25rem', height: '31.25rem' }}
     />
   )
 }

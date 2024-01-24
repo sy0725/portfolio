@@ -1,4 +1,3 @@
-
 'use client'
 
 import React from 'react'
@@ -12,6 +11,8 @@ function loading() {
     loop
     animationData={lottieLoading}
     play
+    style={{ width: '18.75rem', height: '18.75rem' }}
+
   />
   )
 }
