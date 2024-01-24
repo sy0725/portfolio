@@ -7,8 +7,6 @@ function Me() {
     <section className='flex flex-col items-center justify-center' style={{ height: '100vh' }}>
     <span className='font-bold text-[2rem] pb-[2.5rem] mobile:text-[1.5rem] tablet:text-[1.75rem]'>저는 이런 사람 이에요!</span>
     <CardBox flex='flex-col'>
-      
-    
       <ul className='px-[3.75rem]'>
       <li className='text-[2.188rem] mobile:text-[1.125rem] tablet:text-[1.75rem]'><span className='font-bold text-[2.5rem] mobile:text-[1.563rem] tablet:text-[2.188rem]'>💬커뮤니케이션</span>을 중요시 여기는 사람</li>
       <br/>

@@ -15,7 +15,7 @@ function Header() {
 
   return (
     <>
-      <div className='fixed w-full bg-white'>
+      <div className='fixed w-full bg-white z-10'>
         <div className='flex justify-between px-[3.75rem] pt-5'>
         <ScrollLink to='/' smooth={true} duration={1000}>
           <button className='mobile:text-[1.5rem] tablet:text-[1.75rem] desktop:text-[2rem]'>JSY Portfolio</button>
@@ -25,7 +25,7 @@ function Header() {
               <button type='button' className='cursor-pointer'>About</button>
             </ScrollLink>
             <button type='button' className='cursor-pointer'>Project</button>
-            <button className='pb-[5px]' type='button' onClick={toggleButtonImage}>
+            <button className='pb-[0.313rem] ' type='button' onClick={toggleButtonImage}>
               <Image
                 src={isButtonClicked ? Light : Dark}
                 width={30}

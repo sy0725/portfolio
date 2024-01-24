@@ -13,7 +13,6 @@ function Profile() {
         <Information />
       </CardBox>
       <DownBottom/>
-
     </section>
   );
 }

@@ -14,7 +14,7 @@ function CardBox({
     <>
       <div
         className={`
-      border-[3px] rounded-[20px] min-w-[1510px] max-w-[1510px] mobile:min-w-[600px] mobile:max-w-[600px] tablet:min-w-[1100px] tablet:max-w-[1100px] h-auto flex shadow-md justify-around py-[100px] ${flex} ${className}`}
+      border-[0.313rem] rounded-[1.25rem] min-w-[94.375rem] max-w-[94.375rem] mobile:min-w-[37.5rem] mobile:max-w-[37.5rem] tablet:min-w-[68.75rem] tablet:max-w-[68.75rem] h-auto flex shadow-md justify-around py-[6.25rem] ${flex} ${className}`}
         {...props}>
         {children}
       </div>

@@ -27,8 +27,8 @@ function DownBottom() {
         initial="hidden"
         animate="show"
         className="flex items-center flex-col">
-        <MdOutlineKeyboardDoubleArrowDown size="2rem" />
-        <span className="pt-2 mobile:text-[18px] tablet:text-[20px]"> 스크롤을 내려주세요! </span>
+        <MdOutlineKeyboardDoubleArrowDown size="3rem" />
+        <span className="pt-2 mobile:text-[1.125rem] tablet:text-[1.25rem] text-[1.75rem]"> 스크롤을 내려주세요! </span>
       </motion.div>
     </>
   );
