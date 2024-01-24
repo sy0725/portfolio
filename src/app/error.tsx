@@ -1,12 +1,16 @@
 'use client'
 
 import React from 'react'
+import Lottie from 'react-lottie-player'
+import lottieError from 'public/animation/error.json'
 
 function error() {
   return (
-    <div>
-      <p>Error</p>
-    </div>
+    <Lottie
+      loop
+      animationData={lottieError}
+      play
+    />
   )
 }
 
