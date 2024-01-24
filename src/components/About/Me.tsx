@@ -3,7 +3,7 @@ import CardBox from '../Common/CardBox'
 
 function Me() {
   return (
-    <section className='flex flex-col items-center' style={{ height: '100vh' }}>
+    <section className='flex flex-col items-center justify-center' style={{ height: '100vh' }}>
     <span className='font-bold text-[32px] pb-[40px] mobile:text-[24px] tablet:text-[28px]'>저는 이런 사람 이에요!</span>
     <CardBox flex='flex-col'>
       

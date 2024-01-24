@@ -9,9 +9,13 @@ function page() {
   return (
     <>
       <Header/>
+      <section id='/'>
       <Hello/>
-      <Profile/>
-      <Me/>
+      </section>
+      <section id='about'>
+        <Profile />
+      </section>
+        <Me />
       <Skill/>
     </>
   );

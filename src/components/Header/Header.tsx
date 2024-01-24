@@ -3,10 +3,8 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Light from '@images/theme/lightTheme.svg';
 import Dark from '@images/theme/darkTheme.svg';
+import { Link as ScrollLink } from 'react-scroll';
 
-// 헤더 부분 앞으로 추가할 부분
-// 다크모드 , 라이트모드
-// 버튼 클릭시 페이지 이동 - About : About , Project : Project Link로 연결하여 이동하기
 
 function Header() {
   const [isButtonClicked, setIsButtonClicked] = useState(false);
@@ -19,9 +17,13 @@ function Header() {
     <>
       <div className='fixed w-full bg-white'>
         <div className='flex justify-between px-[60px] pt-5'>
-          <p className='mobile:text-[24px] tablet:text-[28px] desktop:text-[32px]'>JSY Portfolio</p>
+        <ScrollLink to='/' smooth={true} duration={1000}>
+          <button className='mobile:text-[24px] tablet:text-[28px] desktop:text-[32px]'>JSY Portfolio</button>
+          </ScrollLink>
           <div className='flex gap-[60px] mobile:text-[24px] tablet:text-[28px] desktop:text-[32px]'>
-            <button type='button'>About</button>
+          <ScrollLink to='about' smooth={true} duration={1000}>
+              <button type='button'>About</button>
+            </ScrollLink>
             <button type='button'>Project</button>
             <button className='pb-[5px]' type='button' onClick={toggleButtonImage}>
               <Image
