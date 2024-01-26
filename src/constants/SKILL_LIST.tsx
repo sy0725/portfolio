@@ -31,4 +31,15 @@ export const BACKEND_LIST = [
   { src: '/images/About/Skill/pocket-base.png', alt: 'PocketBase' },
   { src: '/images/About/Skill/supabase.png', alt: 'SupaBase' },
 ]
+
+export const JUNGLE_LIST = [
+  { src: '/images/About/Skill/react.png', alt: 'React' },
+  { src: '/images/About/Skill/typescript.png', alt: 'TypeScript' },
+  { src: '/images/About/Skill/zustand.png', alt: 'Zustand' },
+  { src: '/images/About/Skill/supabase.png', alt: 'SupaBase' },
+  { src: '/images/About/Skill/styledcomponent.png', alt: 'styledcomponent' },
+]
+
+
+
 export default SKILL_LIST
