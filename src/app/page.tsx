@@ -8,6 +8,7 @@ import Profile from "@/components/About/Profile";
 import Me from "@/components/About/Me";
 import Skill from "@/components/Skill/Skill";
 import ThemeProvider from "@/components/Common/ThemeProvider";
+import Project from "@/components/Project/Project";
 
 function page() {
   return (
@@ -23,6 +24,9 @@ function page() {
       </section>
       <section id='skill'>
       <Skill/>
+      </section>
+      <section id='project'>
+      <Project/>
       </section>
       </ThemeProvider>
     </>
