@@ -9,7 +9,7 @@ const imageVariants = {
   hover: { scale: 1.5 },
 };
 
-function renderSkillList(list: SkillProps[]) {
+export function renderSkillList(list: SkillProps[]) {
   return (
     <div className="flex gap-7">
       {list.map((image, index) => (
